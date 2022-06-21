@@ -109,16 +109,16 @@ article {
     color: #283618;
 }
 
- .map {
+.maps {
     text-align: center;
  }
 
- #firstmap {
-    padding-top: 134px;
+#firstmap {
+    /* padding-top: 134px; */
  }
 
- #secondmap {
-    padding-top: 115px;
+#secondmap {
+    /* padding-top: 115px; */
  }
 
 /* Footer CSS */
