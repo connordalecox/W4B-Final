@@ -46,6 +46,47 @@ body {
     font-size: 17px;
  }
 
+ /*Main CSS*/
+ main {
+    overflow: auto;
+    background: rgb(96,108,56);
+    background: linear-gradient(90deg, rgba(96,108,56,1) 0%, rgba(221,161,94,1) 50%, rgba(254,250,224,1) 100%);
+ }
+ .headtitle {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+    color: #283618;
+ }
+ article {
+    height: 700px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    color: #283618;
+    
+ }
+
+ .name {
+    font-size: 30px;
+    padding: 0;
+    margin-bottom: 0;
+ }
+
+ .bike {
+    padding: 0;
+    margin-top: 0;
+    font-size: 15px;
+ }
+
+ .bikepic {
+    width: 350px;
+    height: 500px;
+    border: 3px solid #283618;
+    box-shadow: 5px 5px 10px black;
+ }
+
+
 
 
  

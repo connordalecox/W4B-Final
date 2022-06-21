@@ -59,7 +59,7 @@ body {
 }
 
 .bottomsection {
-    height: 680px;
+    height: 825px;
     color: #283618;
     background: rgb(96,108,56);
     background: linear-gradient(90deg, rgba(96,108,56,1) 0%, rgba(221,161,94,1) 50%, rgba(254,250,224,1) 100%);
@@ -105,25 +105,18 @@ article {
 .dir {
     padding-right: 10px;
 }
+
  .map {
     text-align: center;
  }
-/*maybe*/
- /* .leftart:hover {
-    border: 3px solid #283618;
-    padding: 2px;
+
+ #firstmap {
+    padding-top: 134px;
  }
 
- .middleart:hover {
-    border: 3px solid #283618;
-    padding: 2px;
+ #secondmap {
+    padding-top: 115px;
  }
-
- .rightart:hover {
-    border: 3px solid #283618;
-    padding: 2px;
- } */
-
 
 /* Footer CSS */
 
