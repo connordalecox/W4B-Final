@@ -22,43 +22,45 @@ body {
 
 .navlist {
     float: right;
-    position: relative;
+    /* position: relative; */
 }
 
 .navlistitem {
     display: inline-block;
     padding-right: 7px;
-    /* padding-top: 3px; */
     margin-top: 3px;
 }
 
 .navatag {
-    box-shadow: 0 0 3px white inset;
     text-decoration: none;
     color: #606c38;
     background-color: #dda15e;
     padding: 6px;
     border-radius: 7px;
+    box-shadow: 2px 2px 5px 1px black;
 }
+
 .navatag:hover  {
-    color: #fefae0;
-    box-shadow: 2px 2px 7px 3px #606c38;
+    /* color: #fefae0; */
+    box-shadow: inset .5px .5px 3px 1px black;
     font-size: 17px;
- }
+    transition: 300000s;
+}
 
  /*Main CSS*/
- main {
+
+main {
     overflow: auto;
     background: rgb(96,108,56);
     background: linear-gradient(90deg, rgba(96,108,56,1) 0%, rgba(221,161,94,1) 50%, rgba(254,250,224,1) 100%);
  }
- .headtitle {
+.headtitle {
     text-align: center;
     font-size: 60px;
     padding-top: 15px;
     color: #283618;
  }
- article {
+article {
     height: 700px;
     width: 33%;
     float: left;
@@ -67,61 +69,56 @@ body {
     
  }
 
- .name {
+.name {
     font-size: 30px;
     padding: 0;
     margin-bottom: 0;
     margin-top: 0;
  }
 
- .bike {
+.bike {
     padding: 0;
     margin-top: 0;
     font-size: 15px;
  }
 
- .bikepic {
+.bikepic {
     width: 350px;
     height: 500px;
     border: 3px solid #283618;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 25px 5px black;
  }
 
- #sponsors {
+#sponsors {
     text-align: center;
     font-size: 35px;
     text-decoration: overline;
     color: #283618;
  }
 
- .logobox {
+.logobox {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
  }
 
- .clawsonlogo {
+.clawsonlogo {
     padding-bottom: 10px;
     height: 80px;
     margin: auto;
  }
 
- .kawalogo {
+.kawalogo {
     padding-bottom: 10px;
     height: 80px;
     margin: auto;
  }
 
- .alpinelogo {
+.alpinelogo {
     padding-bottom: 10px;
     height: 80px;
     margin: auto;
  }
-
-
-
-
- 
 
  /* Footer CSS */
 
