@@ -96,9 +96,7 @@ body {
 
  .logobox {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    float: left;
     width: 100%;
  }
 
