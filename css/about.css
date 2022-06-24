@@ -22,7 +22,6 @@ body {
 
 .navlist {
     float: right;
-    /* position: relative; */
 }
 
 .navlistitem {
@@ -41,7 +40,6 @@ body {
 }
 
 .navatag:hover  {
-    /* color: #fefae0; */
     box-shadow: inset .5px .5px 3px 1px black;
     font-size: 17px;
     transition: 300000s;
@@ -89,7 +87,7 @@ article {
     box-shadow: 5px 5px 25px 5px black;
  }
 
- .video {
+.video {
     text-align: center;
     padding-top: 0;
     color: #283618;
@@ -140,7 +138,6 @@ footer {
     text-decoration: none;
     color: #283618;
     padding-left: 15px;
-    /* float: right; */
     padding-top: 12px;
     float: right;
 }
