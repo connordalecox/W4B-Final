@@ -51,7 +51,7 @@ body {
 /* Main CSS */
 
 main {
-    height: 100%;
+    height: calc(100% - 60px);
     overflow: auto;
     color: #283618;
     background: rgb(96,108,56);
@@ -154,6 +154,8 @@ footer {
     background-color: #FEFAE0;
     width: 100%;
     font-size: 30px;
+    position: absolute;
+    bottom: 0;
 }
 
 .fa {
