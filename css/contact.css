@@ -125,7 +125,7 @@ label {
 }
 
 #infodiv {
-    text-align: center;
+    text-align: left;
     color: #283618;
     width:40%;
     font-family: 'Montserrat', sans-serif;
@@ -135,10 +135,12 @@ label {
 .location {
     padding-top: 60px;
     font-size: 20px;
+    padding-left: 15px;
 }
 
 .phone {
     font-size: 20px;
+    padding-left: 10px;
 }
 
 
